@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
   return res.render("front.ejs");
 });
 app.get("/home", (req, res) => {
-  return res.render("home.ejs");
+  return res.render("Home.ejs");
 });
 
 app.post("/postTable", async (req, res) => {

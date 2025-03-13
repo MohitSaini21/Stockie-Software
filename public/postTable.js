@@ -13,7 +13,7 @@ function sendPostRequest(data, selectedTable) {
     return; // Early exit if the required data is not present
   }
 
-  fetch("http://localhost:3000/postTable", {
+  fetch("https://stockie-software.onrender.com/postTable", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

@@ -878,7 +878,7 @@
     <!-- Fetching Recetns Tables -->
     <script>
       function fetchTodaysTables() {
-        fetch("http://localhost:3000/getRecentTables")
+        fetch("https://stockie-software.onrender.com//getRecentTables")
           .then((response) => response.json())
           .then((tables) => {
             // Clear any previous tables
@@ -967,7 +967,7 @@
         }
 
         // Make a POST request to the API with the date
-        fetch("http://localhost:3000/date", {
+        fetch("https://stockie-software.onrender.com/date", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
