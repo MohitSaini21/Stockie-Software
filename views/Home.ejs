@@ -978,6 +978,12 @@
               console.log("Updated Stack:", stack);
 
               alert("Stack has been updated!");
+              const tableNameTag = document.getElementById("currTableName");
+              const uniqueIDTag = document.getElementById("uniqueID");
+              tableNameTag.innerText = null;
+              uniqueIDTag.textContent = null;
+              const table = document.getElementById("dynamicTable");
+              table.innerHTML = ""; // Clear any previous table
               window.location.reload();
             } else {
               // If the server responds with a failure message
