@@ -401,31 +401,7 @@
               <div
                 class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3"
                 id="dbContainer"
-              >
-                <div class="col">
-                  <div class="p-3">
-                    <img
-                      src="/473dc604-c750-41f5-b394-1b9d1799ff06.svg"
-                      alt="Excel File"
-                      class="img-fluid"
-                      style="max-width: 100%; height: auto"
-                    />
-                    Row column
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="p-3">
-                    <img
-                      src="/473dc604-c750-41f5-b394-1b9d1799ff06.svg"
-                      alt="Excel File"
-                      class="img-fluid"
-                      style="max-width: 100%; height: auto"
-                    />
-                    Row column
-                  </div>
-                </div>
-              </div>
+              ></div>
             </div>
           </div>
         </div>
@@ -878,7 +854,7 @@
     <!-- Fetching Recetns Tables -->
     <script>
       function fetchTodaysTables() {
-        fetch("https://stockie-software.onrender.com//getRecentTables")
+        fetch("https://stockie-software.onrender.com/getRecentTables")
           .then((response) => response.json())
           .then((tables) => {
             // Clear any previous tables
